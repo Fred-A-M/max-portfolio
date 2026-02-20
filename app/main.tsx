@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { profile } from './consts'
 
 export default function Main () {
@@ -24,7 +25,9 @@ export default function Main () {
           </div>
         </div>
         <div className='flex-1 text-right'>
-          WORK
+          <Link href="/work/tester">
+            WORK
+          </Link>
         </div>
       </div>
       <div className='flex flex-col mt-auto'>

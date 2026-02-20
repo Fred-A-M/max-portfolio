@@ -4,18 +4,18 @@ import "./globals.css";
 
 
 export const metadata: Metadata = {
-  title: "KIERAN SLATER",
-  description: "Furniture Maker",
+  title: "MAX RAWLINS",
+  description: "Graphic Designer",
   metadataBase: new URL('https://www.something.com'),
   openGraph: {
-    title: 'KIERAN SLATER',
-    description: 'Furniture Maker',
+    title: 'MAX RAWLINS',
+    description: 'Graphic Designer',
     images: [
       {
         url: '/rat.png',
         width: 1200,
         height: 676,
-        alt: 'Kieran Slater - Very Good Boy',
+        alt: 'Max Rawlins - Very Good Boy',
       },
     ],
     type: 'website',
