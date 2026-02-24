@@ -25,7 +25,7 @@ export default function Main () {
           </div>
         </div>
         <div className='flex-1 text-right'>
-          <Link href="/work/tester">
+          <Link href="/work/">
             WORK
           </Link>
         </div>

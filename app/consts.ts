@@ -1,43 +1,16 @@
 export const projects = [
   {
-    name: "Console",
-    date: "09:2025",
-    description: [
-      "BIRCH PLYWOOD, ALUMINIUM, ACRYLIC",
-      "This cabinet combines warmth and precision through a restrained use of materials and detail. Constructed from birch plywood panels framed in brushed aluminium, the piece celebrates its structure rather than concealing it. Exposed fixings and clean lines highlight the junctions where natural wood meets industrial metal, creating a dialogue between craft and manufacture.",
-      "The acrylic doors introduce a sense of lightness and transparency, softening the cabinet’s geometric form while allowing the contents to become part of the visual composition. Balanced proportions and considered hardware give the piece a quiet, architectural presence — functional yet sculptural.",
-      "Designed and made by Kieran Slater in London, the cabinet reflects his ongoing exploration of honest materials, precise construction, and the space between utility and art.",
-    ],
-    image: "FULL_1515_nz2se2",
-    gallery: [
-      {
-        image: "DETAIL_1378_zlfots",
-        caption: "CAPTION"
-      },
-      {
-        image: "DETAIL_1523_neofly",
-        caption: "CAPTION"
-      },
-    ],
-    link: "/work-projects/console-0925",
+    name: "FW26",
+    description: "FW26 GRAPHIC TEE - BOILER ROOM",
+    image: "DIRTY_FLYER_2_WHITE_TEE_omnl5f",
+    link: "/work/fw26",
   },
 ];
 
 export interface Project {
   name: string;
-  date: string;
-  description: string[];
+  description: string;
   image: string,
-  gallery: {
-    image: string, 
-    caption: string,
-    width?: number,
-    height?: number,
-    stylesWidth?: number,
-    mp4?: string,
-    webm?: string,
-    gif?: string,
-  }[];
   video?: string;
   link: string;
 }
