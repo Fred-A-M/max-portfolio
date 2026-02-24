@@ -3,7 +3,13 @@ export const projects = [
     name: "FW26",
     description: "FW26 GRAPHIC TEE - BOILER ROOM",
     image: "DIRTY_FLYER_2_WHITE_TEE_omnl5f",
-    link: "/work/fw26",
+    link: "fw26",
+  },
+  {
+    name: "Bondage",
+    description: "BONDAGE AOP DRESS - BOILER ROOM",
+    image: "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
+    link: "bondage",
   },
 ];
 

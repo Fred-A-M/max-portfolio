@@ -16,8 +16,8 @@ export default function WorkFrame () {
 
   if (index === -1) return null
 
-  const prev = projects[(index - 1 + projects.length) % projects.length]
-  const next = projects[(index + 1) % projects.length]
+  const prev = projects[(index - 1 + projects.length) % projects.length].link
+  const next = projects[(index + 1) % projects.length].link
 
   return (
     <nav className="absolute inset-0 pointer-events-none">
