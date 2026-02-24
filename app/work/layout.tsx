@@ -17,14 +17,7 @@ export default function WorkLayout({
         <WorkFrame />
 
         {/* CENTER VIEWPORT */}
-        <main
-          className="
-            grid place-items-center
-            px-[105px]  /* 25 padding + ~80 arrow */
-            pt-[85px]   /* 25 padding + ~60 top bar */
-            pb-[25px]
-          "
-        >
+        <main className="px-[120px] py-[25px]">
           {children}
         </main>
       </div>

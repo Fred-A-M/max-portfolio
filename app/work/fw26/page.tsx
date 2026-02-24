@@ -8,14 +8,22 @@ export default function Fw26 () {
   if (!project) return null;
 
   return (
-    <div className="relative w-full h-full min-w-0 min-h-0">
-      <CldImage
-        src={project?.image}
-        alt='Project Image'
-        fill
-        className="object-contain"
-        preload
-      />
+    <div className="flex flex-col w-full h-full">
+      {/* Image container */}
+      <div className="relative w-full h-full">
+        <CldImage
+          src={project.image}
+          alt="Project Image"
+          fill
+          className="object-contain"
+          preload
+        />
+      </div>
+
+      {/* Description (normal flow) */}
+      <p className="text-center mt-[25px]">
+        {project.description}
+      </p>
     </div>
   )
 }
