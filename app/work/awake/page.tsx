@@ -4,11 +4,11 @@ import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
 
-export default function Fw26 () {
+export default function Awake () {
   const isMobile = useIsMobile();
 
-  const project = projects.find(project => project.name === "FW26")
-  if (!project) return null;
+  const project = projects.find(project => project.name === "Awake")
+  if (!project || !project.gallery || project.gallery.length === 0) return null;
 
   return (
     <div className="flex flex-col w-full h-full">
