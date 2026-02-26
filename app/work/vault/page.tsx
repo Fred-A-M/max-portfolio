@@ -2,6 +2,7 @@
 import { CldImage } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 import HoverImage from '@/app/components/HoverImage'
+import ProjectContentWrap from '@/app/components/ProjectContentWrap'
 
 export default function Vault () {
 
@@ -9,19 +10,13 @@ export default function Vault () {
   if (!project || !project.gallery || project.gallery.length === 0) return null;
 
   return (
-    <div className="flex flex-col w-full h-full">
-      {/* Image container */}
-      <div className="relative w-full h-full">
-        <HoverImage 
-          primary={project.gallery[0]}
-          secondary={project.gallery[1]}
-        />
-      </div>
-
-      {/* Description (normal flow) */}
-      <p className="text-center mt-[25px]">
-        {project.description}
-      </p>
-    </div>
+    <ProjectContentWrap
+      project={project}
+    >
+      <HoverImage 
+        primary={project.gallery[0]}
+        secondary={project.gallery[1]}
+      />
+    </ProjectContentWrap>
   )
 }

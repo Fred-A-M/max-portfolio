@@ -1,0 +1,23 @@
+import { Project } from '../consts';
+
+export default function ProjectContentWrap({
+  children,
+  project
+}: {
+  children: React.ReactNode;
+  project: Project
+}) {
+  return (
+    <div className="flex flex-col w-full h-full">
+      {/* Image container */}
+      <div className="relative w-full h-full">
+        {children}
+      </div>
+      
+      {/* Description (normal flow) */}
+      <p className="text-center mt-[25px] mx-[-88px] sm:mx-0">
+        {project.description}
+      </p>
+    </div>
+  )
+}
