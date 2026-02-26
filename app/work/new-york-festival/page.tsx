@@ -1,5 +1,4 @@
 "use client"
-import { CldVideoPlayer } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 
 export default function NewYorkFestival () {
@@ -17,7 +16,7 @@ export default function NewYorkFestival () {
           loop
           muted
           playsInline
-          className="absolute inset-0 w-full h-full object-contain"
+          className="absolute inset-0 w-full h-full object-contain sm:pt-[4px]"
         />
       </div>
 

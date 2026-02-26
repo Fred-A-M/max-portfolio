@@ -15,7 +15,7 @@ export default function Bondage () {
           src={project.image}
           alt="Project Image"
           fill
-          className="object-contain"
+          className="object-contain sm:pt-[4px]"
           preload
         />
       </div>

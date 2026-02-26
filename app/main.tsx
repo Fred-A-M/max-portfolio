@@ -7,7 +7,7 @@ export default function Main () {
     <div className='flex flex-col flex-1'>
       <div className='flex'>
         <div className='flex flex-col flex-1'>
-          <div className='flex flex-col gap-[25px] pb-[25px]'>
+          <div className='flex flex-col gap-[10px] sm:gap-[25px] sm:pb-[25px] pb-[10px]'>
             <h1 className='underline'>
               I&apos;M MAX RAWLINS. WELCOME TO MY WEBSITE.
             </h1>
@@ -25,18 +25,18 @@ export default function Main () {
           </div>
         </div>
         <div className='flex-1 text-right'>
-          <Link href="/work/">
+          <Link href="/work/" className='hover:underline'>
             WORK
           </Link>
         </div>
       </div>
       <div className='flex flex-col mt-auto'>
-        <p>
+        <Link href="mailto:helloitsmaxrawlins@gmail.com" className='hover:underline'>
           EMAIL
-        </p>
-        <p>
+        </Link>
+        <Link href="https://www.instagram.com/handburgers/" className='hover:underline' target='_blank'>
           INSTAGRAM
-        </p>
+        </Link>
       </div>
     </div>
   )

@@ -25,7 +25,7 @@ export default function Awake () {
             src={project.image}
             alt="Project Image"
             fill
-            className="object-contain"
+            className="object-contain pt-[4px]"
             preload
           />
         }

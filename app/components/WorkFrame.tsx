@@ -20,27 +20,27 @@ export default function WorkFrame () {
   const next = projects[(index + 1) % projects.length].link
 
   return (
-    <nav className="absolute inset-0 pointer-events-none">
+    <nav className="absolute inset-0">
 
-      <div className='absolute inset-[25px]'>
+      <div className='absolute inset-[10px] sm:inset-[25px]'>
         {/* top bar */}
         <div className="absolute top-0 left-0 right-0 flex justify-between items-center">
-          <h1 className="pointer-events-auto">MAX RAWLINS</h1>
-          <Link href="/" className="pointer-events-auto">
+          <h1>MAX RAWLINS</h1>
+          <Link href="/" className="hover:underline hover:cursor-pointer">
             ABOUT
           </Link>
         </div>
 
         {/* left arrow */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2 pointer-events-auto">
-          <button onClick={() => router.push(`/work/${prev}`)}>
+        <div className="absolute left-0 top-1/2 -translate-y-1/2">
+          <button onClick={() => router.push(`/work/${prev}`)} className='hover:underline hover:cursor-pointer'>
             THIS WAY
           </button>
         </div>
 
         {/* right arrow */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2 pointer-events-auto">
-          <button onClick={() => router.push(`/work/${next}`)}>
+        <div className="absolute right-0 top-1/2 -translate-y-1/2">
+          <button onClick={() => router.push(`/work/${next}`)} className='hover:underline hover:cursor-pointer'>
             THAT WAY
           </button>
         </div>

@@ -17,7 +17,7 @@ export default function WorkLayout({
         <WorkFrame />
 
         {/* CENTER VIEWPORT */}
-        <main className="px-[120px] py-[25px]">
+        <main className="px-[100px] sm:px-[120px] py-[10px] sm:py-[25px]">
           {children}
         </main>
       </div>
