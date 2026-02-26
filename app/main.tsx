@@ -6,8 +6,8 @@ export default function Main () {
   return (
     <div className='flex flex-col flex-1'>
       <div className='flex'>
-        <div className='flex flex-col flex-1'>
-          <div className='flex flex-col gap-[10px] sm:gap-[25px] sm:pb-[25px] pb-[10px]'>
+        <div className='flex flex-col w-3/4 sm:flex-1'>
+          <div className='flex flex-col gap-[25px] pb-[25px]'>
             <h1 className='underline'>
               I&apos;M MAX RAWLINS. WELCOME TO MY WEBSITE.
             </h1>

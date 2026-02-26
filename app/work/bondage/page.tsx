@@ -21,7 +21,7 @@ export default function Bondage () {
       </div>
 
       {/* Description (normal flow) */}
-      <p className="text-center mt-[25px]">
+      <p className="text-center mt-[25px] mx-[-100px]">
         {project.description}
       </p>
     </div>
