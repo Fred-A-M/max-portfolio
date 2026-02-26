@@ -3,6 +3,7 @@ import { CldImage } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
+import StaticImage from '@/app/components/StaticImage';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 
 export default function Fw26 () {
@@ -22,12 +23,8 @@ export default function Fw26 () {
         />
       }
       {!isMobile &&
-        <CldImage
-          src={project.image}
-          alt="Project Image"
-          fill
-          className="object-contain"
-          preload
+        <StaticImage
+          image={project.image}
         />
       }
     </ProjectContentWrap>

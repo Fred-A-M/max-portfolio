@@ -11,7 +11,7 @@ export default function FadeInPage({ children }: { children: React.ReactNode }) 
 
   return (
     <div
-      className={`transition-opacity duration-300 ${
+      className={`transition-opacity duration-500 ${
         ready ? 'opacity-100' : 'opacity-0'
       }`}
     >

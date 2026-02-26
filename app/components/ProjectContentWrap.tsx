@@ -1,4 +1,5 @@
 import { Project } from '../consts';
+import FadeInPage from './FadeInPage';
 
 export default function ProjectContentWrap({
   children,
@@ -15,9 +16,11 @@ export default function ProjectContentWrap({
       </div>
       
       {/* Description (normal flow) */}
-      <p className="text-center mt-[25px] mx-[-88px] sm:mx-0">
-        {project.description}
-      </p>
+      <FadeInPage>
+        <p className="text-center mt-[25px] mx-[-88px] sm:mx-0">
+          {project.description}
+        </p>
+      </FadeInPage>
     </div>
   )
 }

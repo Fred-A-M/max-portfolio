@@ -11,7 +11,7 @@ export default function HoverImage({
 }) {
 
   function useHoverCapable() {
-    const [canHover, setCanHover] = useState(false)
+    const [canHover, setCanHover] = useState(false);
   
     useEffect(() => {
       const mq = window.matchMedia("(hover: hover) and (pointer: fine)")
@@ -23,11 +23,12 @@ export default function HoverImage({
   
   const canHover = useHoverCapable();
   const [tapped, setTapped] = useState(false);
+  const [loaded, setLoaded] = useState(false);
 
 
   return (
     <div 
-      className="relative w-full h-full group touch-manipulation"
+      className={`relative w-full h-full group touch-manipulation transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
       onClick={() => {
         if (!canHover) setTapped(prev => !prev)
       }}
@@ -37,10 +38,11 @@ export default function HoverImage({
         alt="Project Image"
         fill
         preload
+        onLoad={() => setLoaded(true)}
         className={`
           object-contain
           transition-opacity
-          duration-300
+          duration-500
           ${(canHover ? "group-hover:opacity-0" : "")}
           ${tapped ? "opacity-0" : "opacity-100"}
         `}
@@ -54,7 +56,7 @@ export default function HoverImage({
           className={`
             object-contain
             transition-opacity
-            duration-300
+            duration-500
             ${(canHover ? "group-hover:opacity-100" : "")}
             ${tapped ? "opacity-100" : "opacity-0"}
           `}

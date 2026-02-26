@@ -2,6 +2,7 @@
 import { CldImage } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
+import StaticImage from '@/app/components/StaticImage'
 
 export default function Bondage () {
 
@@ -12,12 +13,9 @@ export default function Bondage () {
     <ProjectContentWrap
       project={project}
     >
-      <CldImage
-        src={project.image}
-        alt="Project Image"
-        fill
-        className="object-contain sm:pt-[4px]"
-        preload
+      <StaticImage
+        image={project.image}
+        padding
       />
     </ProjectContentWrap>
   )

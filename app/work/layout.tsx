@@ -1,4 +1,5 @@
 import WorkFrame from '../components/WorkFrame';
+import FadeInPage from '../components/FadeInPage';
 
 export default function WorkLayout({
   children,
@@ -6,21 +7,22 @@ export default function WorkLayout({
   children: React.ReactNode;
 }) {
   return (
-    <section className="min-h-dvh">
-      <div
-        className="
-          relative min-h-dvh
-          grid
-          grid-rows-[auto,1fr]
-        "
-      >
-        <WorkFrame />
-
-        {/* CENTER VIEWPORT */}
-        <main className="px-[100px] sm:px-[120px] py-[10px] sm:py-[25px]">
-          {children}
-        </main>
-      </div>
-    </section>
+    <FadeInPage>
+      <section className="min-h-dvh">
+        <div
+          className="
+            relative min-h-dvh
+            grid
+            grid-rows-[auto,1fr]
+          "
+        >
+          <WorkFrame />
+          {/* CENTER VIEWPORT */}
+          <main className="px-[100px] sm:px-[120px] py-[10px] sm:py-[25px]">
+            {children}
+          </main>
+        </div>
+      </section>
+    </FadeInPage>
   )
 }

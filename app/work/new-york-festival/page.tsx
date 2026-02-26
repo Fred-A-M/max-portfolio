@@ -1,10 +1,12 @@
 "use client"
 import { projects } from '@/app/consts';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
+import { useState } from 'react';
 
 export default function NewYorkFestival () {
 
-  const project = projects.find(project => project.name === "New York Festival")
+  const [loaded, setLoaded] = useState(false);
+  const project = projects.find(project => project.name === "New York Festival");
   if (!project || !project.video) return null;
 
   return (
@@ -17,7 +19,18 @@ export default function NewYorkFestival () {
          loop
          muted
          playsInline
-         className="absolute inset-0 w-full h-full object-contain sm:pt-[4px]"
+         onCanPlay={() => setLoaded(true)}
+         className={`
+          absolute
+          inset-0
+          w-full
+          h-full
+          object-contain
+          sm:pt-[4px]
+          transition-opacity
+          duration-500
+          ${loaded ? "opactity-100" : "opacity-0"}
+          `}
        />
     </ProjectContentWrap>
   )
