@@ -28,7 +28,7 @@ export default function HoverImage({
 
   return (
     <div 
-      className={`relative w-full h-full group touch-manipulation transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
+      className={`relative w-full max-w-[800px] mx-auto h-full group touch-manipulation transition-opacity duration-500 ${loaded ? "opacity-100" : "opacity-0"}`}
       onClick={() => {
         if (!canHover) setTapped(prev => !prev)
       }}

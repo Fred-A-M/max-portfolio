@@ -1,5 +1,4 @@
 "use client"
-import { CldImage } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
 import StaticImage from '@/app/components/StaticImage'
@@ -14,7 +13,7 @@ export default function Bondage () {
       project={project}
     >
       <StaticImage
-        image={project.image}
+        image={project.gallery[0]}
         padding
       />
     </ProjectContentWrap>

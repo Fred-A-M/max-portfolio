@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { americaMono, geistMono } from './ui/fonts';
 import "./globals.css";
+import CustomCursor from './components/CustomCursor';
 
 
 export const metadata: Metadata = {
@@ -36,6 +37,7 @@ export default function RootLayout({
       <body
         className={`${americaMono.variable} ${geistMono.variable} ${americaMono.className} antialiased text-xs sm:text-sm`}
       >
+        <CustomCursor/>
         {children}
       </body>
     </html>

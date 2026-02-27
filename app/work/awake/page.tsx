@@ -1,5 +1,4 @@
 "use client"
-import { CldImage } from 'next-cloudinary'
 import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import { useState } from 'react';
@@ -20,13 +19,13 @@ export default function Awake () {
     >
       {isMobile &&
         <HoverImage 
-          primary={project.gallery[0]}
-          secondary={project.gallery[1]}
+          primary={project.gallery[1]}
+          secondary={project.gallery[2]}
         />
       }
       {!isMobile &&
         <StaticImage
-          image={project.image}
+          image={project.gallery[0]}
           padding
         />
       }

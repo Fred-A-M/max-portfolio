@@ -2,8 +2,8 @@ export const projects = [
   {
     name: "FW26",
     description: "FW26 GRAPHIC TEE - BOILER ROOM",
-    image: "DIRTY_FLYER_2_TEES_fuknk2",
     gallery: [
+      "DIRTY_FLYER_2_TEES_fuknk2",
       "BR-DIRTY-FLYER-MOCK-03_jpuvdk",
       "DIRTY_FLYER_2_ockmiy"
     ],
@@ -12,7 +12,6 @@ export const projects = [
   {
     name: "Bondage",
     description: "BONDAGE AOP DRESS - BOILER ROOM",
-    image: "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
     ],
@@ -21,7 +20,6 @@ export const projects = [
   {
     name: "Vault",
     description: "ADIDAS VAULT x BOILER ROOM",
-    image: "",
     gallery: [
       "adidas_tee_mock_2_copy_asc81f",
       "adidas_tee_mock_1_copy_k3gfwv"
@@ -31,8 +29,8 @@ export const projects = [
   {
     name: "Awake",
     description: "BOILER ROOM x AWAKE EVENT FLYER",
-    image: "BR-AWAKE-2_koiktm",
     gallery: [
+      "BR-AWAKE-2_koiktm",
       "BR-AWAKE-FLYER-V4_scfb30",
       "BR-AWAKE-FLYER-V2_a981az"
     ],
@@ -41,19 +39,26 @@ export const projects = [
   {
     name: "New York Festival",
     description: "NEW YORK FESTIVAL",
-    image: "",
     gallery: [
       "",
     ],
     video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
     link: "new-york-festival",
   },
+  {
+    name: "Hard Dance 02",
+    description: "BOILER ROOM HARD DANCE TEE 02",
+    gallery: [
+      "BOILER_ROOM_HARD_DANCE_TEE_02_FRONT_gpgyhw",
+      "BOILER_ROOM_HARD_DANCE_TEE_02_BACK_p04ppr"
+    ],
+    link: "hard-dance-02",
+  },
 ];
 
 export interface Project {
   name: string;
   description: string;
-  image: string,
   gallery: string[],
   video?: string;
   link: string;
