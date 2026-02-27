@@ -22,7 +22,7 @@ export default function WorkFrame () {
   return (
     <nav className="absolute inset-0">
 
-      <div className='absolute inset-[12px] sm:inset-[25px]'>
+      <div className='absolute inset-[12px] '>
         {/* top bar */}
         <div className="absolute top-0 left-0 right-0 flex justify-between items-center">
           <Link href="/" className="hover:underline hover:cursor-pointer">
