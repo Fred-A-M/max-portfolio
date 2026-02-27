@@ -17,7 +17,7 @@ export default function ProjectContentWrap({
       
       {/* Description (normal flow) */}
       <FadeInPage>
-        <p className="text-center mt-[25px] mx-[-88px] sm:mx-0">
+        <p className="text-center mt-[25px]">
           {project.description}
         </p>
       </FadeInPage>
