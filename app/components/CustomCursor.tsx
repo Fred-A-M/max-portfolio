@@ -3,21 +3,41 @@ import { useEffect, useState } from "react";
 
 const CustomCursor = () => {
   const [position, setPosition] = useState({ x: 0, y: 0 });
+  const [isDesktop, setIsDesktop] = useState(false);
+  const [isVisible, setIsVisible] = useState(false)
 
   useEffect(() => {
+    const mediaQuery = window.matchMedia("(hover: hover)");
+    setIsDesktop(mediaQuery.matches);
+
     const handleMouseMove = (e : MouseEvent) => {
       setPosition({
         x: e.clientX,
         y: e.clientY,
       });
+      setIsVisible(true)
+    };
+
+    const handleMouseLeave = () => {
+      setIsVisible(false);
+    };
+
+    const handleMouseEnter = () => {
+      setIsVisible(true)
     };
 
     window.addEventListener("mousemove", handleMouseMove);
+    document.addEventListener("mouseleave", handleMouseLeave);
+    document.addEventListener("mouseenter", handleMouseEnter);
 
     return () => {
       window.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("mouseleave", handleMouseLeave);
+      document.removeEventListener("mouseenter", handleMouseEnter);
     };
   }, []);
+
+  if (!isDesktop || !isVisible) return null;
 
   return (
     <>
