@@ -45,7 +45,7 @@ const CustomCursor = () => {
       <style>{`* { cursor: none !important; }`}</style>
 
       <img
-        src="/cursor.png" // <-- path to your PNG
+        src="/cursor2.png" // <-- path to your PNG
         alt="custom cursor"
         style={{
           position: "fixed",

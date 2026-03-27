@@ -35,7 +35,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${americaMono.variable} ${geistMono.variable} ${americaMono.className} antialiased text-xs sm:text-sm`}
+        className={`${americaMono.variable} ${geistMono.variable} ${americaMono.className} antialiased text-xs leading-tight`}
       >
         <CustomCursor/>
         {children}
