@@ -2,6 +2,7 @@
 import Link from 'next/link';
 import { usePathname, useRouter } from "next/navigation"
 import { useIsMobile } from '../hooks/useIsMobile';
+import { useEffect } from 'react';
 import { projects } from '../consts';
 
 export default function WorkFrame () {
@@ -15,11 +16,22 @@ export default function WorkFrame () {
   const index = projects.findIndex(
     (project) => project.link.endsWith(currentSlug)
   )
+  
+  const prev = projects[(index - 1 + projects.length) % projects.length]
+  const next = projects[(index + 1) % projects.length]
+
+  useEffect(() => {
+    const preload = (src: string) => {
+      const img = new Image()
+      img.src = src
+    }
+  
+    prev.gallery.slice(0, 2).forEach(preload)
+    next.gallery.slice(0, 2).forEach(preload)
+  
+  }, [index])
 
   if (index === -1) return null
-
-  const prev = projects[(index - 1 + projects.length) % projects.length].link
-  const next = projects[(index + 1) % projects.length].link
 
   if (!isMobile) return (
     <nav className="absolute inset-0">
@@ -36,17 +48,17 @@ export default function WorkFrame () {
         </div>
 
         {/* left arrow */}
-        <div className="absolute left-0 top-1/2 -translate-y-1/2">
-          <button onClick={() => router.push(`/work/${prev}`)} className='hover:underline hover:cursor-pointer'>
+        <div className="absolute left-0 top-1/2 -translate-y-1/2 hover:underline">
+          <Link href={`/work/${prev.link}`} prefetch>
             THIS WAY
-          </button>
+          </Link>
         </div>
 
         {/* right arrow */}
-        <div className="absolute right-0 top-1/2 -translate-y-1/2">
-          <button onClick={() => router.push(`/work/${next}`)} className='hover:underline hover:cursor-pointer'>
+        <div className="absolute right-0 top-1/2 -translate-y-1/2 hover:underline">
+          <Link href={`/work/${next.link}`} prefetch>
             THAT WAY
-          </button>
+          </Link>
         </div>
 
       </div>

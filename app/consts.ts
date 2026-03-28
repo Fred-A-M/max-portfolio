@@ -10,12 +10,28 @@ export const projects = [
     link: "fw26",
   },
   {
-    name: "Bondage",
-    description: "BONDAGE AOP DRESS - BOILER ROOM",
+    name: "Studs and Chains 01",
+    description: "BOILER ROOM STUDS AND CHAINS AOP 01",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
+    ],
+    link: "studs-and-chains-01",
+  },
+  {
+    name: "Studs and Chains 02",
+    description: "BOILER ROOM STUDS AND CHAINS AOP 02",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
+    ],
+    link: "studs-and-chains-02",
+  },
+  {
+    name: "Studs and Chains 03",
+    description: "BOILER ROOM STUDS AND CHAINS AOP 03",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
     ],
-    link: "bondage",
+    link: "studs-and-chains-03",
   },
   {
     name: "Vault",
@@ -53,6 +69,47 @@ export const projects = [
       "BOILER_ROOM_HARD_DANCE_TEE_02_BACK_p04ppr"
     ],
     link: "hard-dance-02",
+  },
+  {
+    name: "Tribal Capsule 01",
+    description: "BOILER ROOM TRIBAL CAPSULE 01",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
+    ],
+    link: "tribal-capsule-01",
+  },
+  {
+    name: "Tribal Capsule 02",
+    description: "BOILER ROOM TRIBAL CAPSULE 02",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
+    ],
+    link: "tribal-capsule-02",
+  },
+  {
+    name: "Tribal Capsule 03",
+    description: "BOILER ROOM TRIBAL CAPSULE 03",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
+    ],
+    link: "tribal-capsule-03",
+  },
+  {
+    name: "Machine Horses 01",
+    description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE 01",
+    gallery: [
+      "AW24LS05MUL-1_rudgmb",
+      "AW24LS05MUL-2_mi2ydt",
+    ],
+    link: "machine-horses-01",
+  },
+  {
+    name: "Dragonfly Motocross 01",
+    description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE 01",
+    gallery: [
+      "Artboard_3_jsk1pw",
+    ],
+    link: "dragonfly-motocross-01",
   },
 ];
 

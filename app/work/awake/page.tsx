@@ -10,7 +10,7 @@ export default function Awake () {
   const isMobile = useIsMobile();
   const [loaded, setLoaded] = useState(false);
 
-  const project = projects.find(project => project.name === "Awake")
+  const project = projects.find(project => project.link === "awake")
   if (!project || !project.gallery || project.gallery.length === 0) return null;
 
   return (

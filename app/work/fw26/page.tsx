@@ -8,7 +8,7 @@ import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 export default function Fw26 () {
   const isMobile = useIsMobile();
 
-  const project = projects.find(project => project.name === "FW26")
+  const project = projects.find(project => project.link === "fw26")
   if (!project) return null;
 
   return (

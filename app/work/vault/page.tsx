@@ -5,7 +5,7 @@ import ProjectContentWrap from '@/app/components/ProjectContentWrap'
 
 export default function Vault () {
 
-  const project = projects.find(project => project.name === "Vault")
+  const project = projects.find(project => project.link === "vault")
   if (!project || !project.gallery || project.gallery.length === 0) return null;
 
   return (

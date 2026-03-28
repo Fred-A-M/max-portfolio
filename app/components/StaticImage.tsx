@@ -23,7 +23,7 @@ export default function StaticImage({
         object-contain 
         transition-opacity
         duration-500
-        ${padding ? "sm:pt-[4px]" : "pt-0"}
+        ${padding ? "sm:pt-[2px]" : "pt-0"}
         ${loaded ? "opactity-100" : "opacity-0"}
       `}
     />

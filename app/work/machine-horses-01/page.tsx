@@ -3,9 +3,9 @@ import { projects } from '@/app/consts'
 import HoverImage from '@/app/components/HoverImage'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
 
-export default function HardDance02 () {
+export default function MachineHorses01 () {
 
-  const project = projects.find(project => project.link === "hard-dance-02")
+  const project = projects.find(project => project.link === "machine-horses-01")
   if (!project || !project.gallery || project.gallery.length === 0) return null;
 
   return (

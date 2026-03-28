@@ -6,7 +6,7 @@ import { useState } from 'react';
 export default function NewYorkFestival () {
 
   const [loaded, setLoaded] = useState(false);
-  const project = projects.find(project => project.name === "New York Festival");
+  const project = projects.find(project => project.link === "new-york-festival");
   if (!project || !project.video) return null;
 
   return (
