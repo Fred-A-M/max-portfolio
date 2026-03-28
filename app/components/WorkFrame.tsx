@@ -80,18 +80,18 @@ export default function WorkFrame () {
               ABOUT
             </Link>
           </div>
-          <button onClick={() => router.push(`/work/${prev}`)} className='hover:cursor-pointer text-3xl hover:text-4xl'>
+          <Link href={`/work/${prev.link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl'>
             &uarr;
-          </button>
+          </Link>
         </div>
 
   
       
 
        <div className='absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center gap-[25px]'>
-          <button onClick={() => router.push(`/work/${next}`)} className='hover:cursor-pointer text-3xl hover:text-4xl'>
+          <Link href={`/work/${next.link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl'>
             &darr;
-          </button>
+          </Link>
           <div>
             {" "}
           </div>
