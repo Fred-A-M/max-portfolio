@@ -55,9 +55,7 @@ export const projects = [
   {
     name: "New York Festival",
     description: "NEW YORK FESTIVAL",
-    gallery: [
-      "",
-    ],
+    gallery: [],
     video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
     link: "new-york-festival",
   },

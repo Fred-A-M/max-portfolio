@@ -26,7 +26,7 @@ export default function NewYorkFestival () {
           w-full
           h-full
           object-contain
-          sm:pt-[4px]
+          sm:pt-[2px]
           transition-opacity
           duration-500
           ${loaded ? "opactity-100" : "opacity-0"}

@@ -1,13 +1,12 @@
 "use client"
 import Link from 'next/link';
-import { usePathname, useRouter } from "next/navigation"
+import { usePathname } from "next/navigation"
 import { useIsMobile } from '../hooks/useIsMobile';
 import { useEffect } from 'react';
-import { projects } from '../consts';
+import { projects, Project } from '../consts';
 
 export default function WorkFrame () {
   const pathname = usePathname();
-  const router = useRouter();
   const isMobile = useIsMobile();
 
   const currentSlug = pathname.split("/").pop()
@@ -21,13 +20,32 @@ export default function WorkFrame () {
   const next = projects[(index + 1) % projects.length]
 
   useEffect(() => {
-    const preload = (src: string) => {
+    const preloadImage = (id: string) => {
+      if (!id) return
+  
       const img = new Image()
-      img.src = src
+      img.src = `https://res.cloudinary.com/duijfl1pq/image/upload/${id}`
     }
   
-    prev.gallery.slice(0, 2).forEach(preload)
-    next.gallery.slice(0, 2).forEach(preload)
+    const preloadVideo = (src: string) => {
+      if (!src) return
+  
+      const video = document.createElement("video")
+      video.src = src
+      video.preload = "auto"
+    }
+  
+    const preloadProject = (project: Project) => {
+      if (project.video) {
+        preloadVideo(project.video)
+        return
+      }
+  
+      project.gallery.forEach(preloadImage)
+    }
+  
+    preloadProject(prev)
+    preloadProject(next)
   
   }, [index])
 
