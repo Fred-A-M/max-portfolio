@@ -109,6 +109,14 @@ export const projects = [
     ],
     link: "dragonfly-motocross-01",
   },
+  {
+    name: "Paris Showroom Invite",
+    description: "BOILER ROOM PARIS SHOWROOM INVITE",
+    gallery: [
+      "PARIS-SHOWROOM-INVITE-03_psmvoc",
+    ],
+    link: "paris-showroom-invite",
+  },
 ];
 
 export interface Project {
