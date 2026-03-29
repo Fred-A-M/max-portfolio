@@ -46,18 +46,26 @@ export const projects = [
     name: "Awake",
     description: "BOILER ROOM x AWAKE EVENT FLYER",
     gallery: [
-      "BR-AWAKE-2_koiktm",
       "BR-AWAKE-FLYER-V4_scfb30",
       "BR-AWAKE-FLYER-V2_a981az"
     ],
     link: "awake",
   },
   {
-    name: "New York Festival",
-    description: "NEW YORK FESTIVAL",
+    name: "New York Festival 01",
+    description: "BOILER ROOM NEW YORK FESTIVAL MEDIA PLAYER",
     gallery: [],
     video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
-    link: "new-york-festival",
+    link: "new-york-festival-01",
+  },
+  {
+    name: "New York Festival",
+    description: "BOILER ROOM NEW YORK FESTIVAL FLYER",
+    gallery: [
+      "NEW_YORK_LONG_LINE_UP_02_4X5_mik6sa",
+      "NEW_YORK_ARTIST_CARD_4X5_ymxla9",
+    ],
+    link: "new-york-festival-02",
   },
   {
     name: "Hard Dance 02",
