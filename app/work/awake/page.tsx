@@ -3,6 +3,7 @@ import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
 import StaticImage from '@/app/components/StaticImage';
+import DoubleImage from '@/app/components/DoubleImage';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 
 export default function Awake () {
@@ -22,15 +23,11 @@ export default function Awake () {
         />
       }
       {!isMobile && (
-      <div className='flex gap-[25px] w-full h-full mx-auto max-w-[1150px] justify-center'>
-        {/* Each wrapper must be relative for the 'fill' image inside */}
-        <div className='relative flex-1 h-full'> 
-          <StaticImage image={project.gallery[0]} />
-        </div>
-        <div className='relative flex-1 h-full'>
-          <StaticImage image={project.gallery[1]} />
-        </div>
-      </div>
+      <DoubleImage 
+        imageOne={project.gallery[0]}
+        imageTwo={project.gallery[1]}
+        padding
+      />
     )}
     </ProjectContentWrap>
   )

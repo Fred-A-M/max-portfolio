@@ -2,7 +2,7 @@
 import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
-import StaticImage from '@/app/components/StaticImage';
+import DoubleImage from '@/app/components/DoubleImage';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 
 export default function Fw26 () {
@@ -17,13 +17,15 @@ export default function Fw26 () {
     >
       {isMobile &&
         <HoverImage 
-          primary={project.gallery[1]}
-          secondary={project.gallery[2]}
+          primary={project.gallery[0]}
+          secondary={project.gallery[1]}
         />
       }
       {!isMobile &&
-        <StaticImage
-          image={project.gallery[0]}
+        <DoubleImage 
+          imageOne={project.gallery[0]}
+          imageTwo={project.gallery[1]}
+          padding
         />
       }
     </ProjectContentWrap>

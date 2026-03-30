@@ -3,7 +3,6 @@ export const projects = [
     name: "FW26",
     description: "FW26 GRAPHIC TEE - BOILER ROOM",
     gallery: [
-      "DIRTY_FLYER_2_TEES_fuknk2",
       "BR-DIRTY-FLYER-MOCK-03_jpuvdk",
       "DIRTY_FLYER_2_ockmiy"
     ],
@@ -59,7 +58,7 @@ export const projects = [
     link: "new-york-festival-01",
   },
   {
-    name: "New York Festival",
+    name: "New York Festival 02",
     description: "BOILER ROOM NEW YORK FESTIVAL FLYER",
     gallery: [
       "NEW_YORK_LONG_LINE_UP_02_4X5_mik6sa",

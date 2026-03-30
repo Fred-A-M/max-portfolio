@@ -13,17 +13,17 @@ export const metadata: Metadata = {
     description: 'Graphic Designer',
     images: [
       {
-        url: '/rat.png',
-        width: 1200,
-        height: 676,
+        url: '/cursor2.png',
+        width: 450,
+        height: 450,
         alt: 'Max Rawlins - Very Good Boy',
       },
     ],
     type: 'website',
   },
   icons: {
-    icon: '/rat.png',
-    apple: '/rat.png',
+    icon: '/cursor2.png',
+    apple: '/cursor2.png',
   },
 };
 
