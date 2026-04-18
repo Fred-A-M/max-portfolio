@@ -3,10 +3,10 @@ import { projects } from '@/app/consts';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 import { useState } from 'react';
 
-export default function NewYorkFestival01 () {
+export default function MediaPlayerArtistCard () {
 
   const [loaded, setLoaded] = useState(false);
-  const project = projects.find(project => project.link === "new-york-festival-01");
+  const project = projects.find(project => project.link === "media-player-artist-card");
   if (!project || !project.video) return null;
 
   return (

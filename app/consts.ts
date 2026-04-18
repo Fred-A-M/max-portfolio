@@ -1,6 +1,5 @@
 export const projects = [
   {
-    name: "FW26",
     description: "FW26 GRAPHIC TEE - BOILER ROOM",
     gallery: [
       "BR-DIRTY-FLYER-MOCK-03_jpuvdk",
@@ -9,7 +8,6 @@ export const projects = [
     link: "fw26",
   },
   {
-    name: "Studs and Chains 01",
     description: "BOILER ROOM STUDS AND CHAINS AOP 01",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
@@ -17,7 +15,6 @@ export const projects = [
     link: "studs-and-chains-01",
   },
   {
-    name: "Studs and Chains 02",
     description: "BOILER ROOM STUDS AND CHAINS AOP 02",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
@@ -25,7 +22,6 @@ export const projects = [
     link: "studs-and-chains-02",
   },
   {
-    name: "Studs and Chains 03",
     description: "BOILER ROOM STUDS AND CHAINS AOP 03",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
@@ -33,8 +29,7 @@ export const projects = [
     link: "studs-and-chains-03",
   },
   {
-    name: "Vault",
-    description: "ADIDAS VAULT x BOILER ROOM",
+    description: "BOILER ROOM X ADIDAS VAULT TEE",
     gallery: [
       "adidas_tee_mock_2_copy_asc81f",
       "adidas_tee_mock_1_copy_k3gfwv"
@@ -42,8 +37,7 @@ export const projects = [
     link: "vault",
   },
   {
-    name: "Awake",
-    description: "BOILER ROOM x AWAKE EVENT FLYER",
+    description: "BOILER ROOM x AWAKE NY EVENT FLYER",
     gallery: [
       "BR-AWAKE-FLYER-V4_scfb30",
       "BR-AWAKE-FLYER-V2_a981az"
@@ -51,14 +45,13 @@ export const projects = [
     link: "awake",
   },
   {
-    name: "New York Festival 01",
-    description: "BOILER ROOM NEW YORK FESTIVAL MEDIA PLAYER",
-    gallery: [],
-    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
-    link: "new-york-festival-01",
+    description: "BOILER ROOM x GRAILED PFW FLYER",
+    gallery: [
+      "BR-GRAILED-FLYER_2_m7i1sp",
+    ],
+    link: "grailed",
   },
   {
-    name: "New York Festival 02",
     description: "BOILER ROOM NEW YORK FESTIVAL FLYER",
     gallery: [
       "NEW_YORK_LONG_LINE_UP_02_4X5_mik6sa",
@@ -67,7 +60,37 @@ export const projects = [
     link: "new-york-festival-02",
   },
   {
-    name: "Hard Dance 02",
+    description: "MEDIA PLAYER ANNOUNCE",
+    gallery: [],
+    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566719/Media-Player-Announce_ero8ym.mp4",
+    link: "media-player-announce",
+  },
+  {
+    description: "MEDIA PLAYER ARTIST CARD",
+    gallery: [],
+    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565586/Media-Player-Artist-Card_ufl5kf.mp4",
+    link: "media-player-artist-card",
+  },
+  {
+    description: "MEDIA PLAYER LINE UP",
+    gallery: [],
+    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565576/Media-Player-Line-Up-2_qkbvu2.mp4",
+    link: "media-player-line-up",
+  },
+  {
+    description: "MEDIA PLAYER SCROLLING LINE UP",
+    gallery: [],
+    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
+    link: "media-player-scrolling-line-up",
+  },
+  {
+    description: "BOILER ROOM HARD DANCE TEE 01",
+    gallery: [
+      "BOILER_ROOM_HARD_DANCE_TEE_01_feqqo2",
+    ],
+    link: "hard-dance-01",
+  },
+  {
     description: "BOILER ROOM HARD DANCE TEE 02",
     gallery: [
       "BOILER_ROOM_HARD_DANCE_TEE_02_FRONT_gpgyhw",
@@ -76,7 +99,6 @@ export const projects = [
     link: "hard-dance-02",
   },
   {
-    name: "Tribal Capsule 01",
     description: "BOILER ROOM TRIBAL CAPSULE 01",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
@@ -84,7 +106,6 @@ export const projects = [
     link: "tribal-capsule-01",
   },
   {
-    name: "Tribal Capsule 02",
     description: "BOILER ROOM TRIBAL CAPSULE 02",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
@@ -92,7 +113,6 @@ export const projects = [
     link: "tribal-capsule-02",
   },
   {
-    name: "Tribal Capsule 03",
     description: "BOILER ROOM TRIBAL CAPSULE 03",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
@@ -100,8 +120,7 @@ export const projects = [
     link: "tribal-capsule-03",
   },
   {
-    name: "Machine Horses 01",
-    description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE 01",
+    description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE",
     gallery: [
       "AW24LS05MUL-1_rudgmb",
       "AW24LS05MUL-2_mi2ydt",
@@ -109,25 +128,88 @@ export const projects = [
     link: "machine-horses-01",
   },
   {
-    name: "Dragonfly Motocross 01",
-    description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE 01",
+    description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE",
     gallery: [
       "Artboard_3_jsk1pw",
     ],
     link: "dragonfly-motocross-01",
   },
   {
-    name: "Paris Showroom Invite",
+    description: "REJECTED CONCEPT",
+    gallery: [
+      "00-yorkies-moto_ae6qua",
+    ],
+      link: "rejected-concept",
+  },
+  {
     description: "BOILER ROOM PARIS SHOWROOM INVITE",
     gallery: [
       "PARIS-SHOWROOM-INVITE-03_psmvoc",
     ],
     link: "paris-showroom-invite",
   },
+  {
+    description: "BOILER ROOM WORLD TOUR ARTIST CARD",
+    gallery: [
+      "LONDON_Artist_Card_0_00_00_00_gcqg62",
+    ],
+    link: "world-tour-artist-card",
+  },
+  {
+    description: "BOILER ROOM WORLD TOUR LINE UP",
+    gallery: [
+      "Med_line_up_1x1_-_Colourway_1_0-00-00-00_z2pvfh",
+      "Med_line_up_1x1_-_Colourway_5_0-00-00-00_agoidq",
+    ],
+    link: "world-tour-line-up",
+  },
+  {
+    description: "BOILER ROOM HARD STYLE TEE",
+    gallery: [
+      "Artboard_2_ugweaa",
+      "Artboard_3_fvwc94",
+    ],
+    link: "hard-style-tee",
+  },
+  {
+    description: "BOILER ROOM LONDON TEE",
+    gallery: [
+      "BOILER_ROOM_LONDON_TEEwhite_zbcpte",
+    ],
+      link: "london-tee",
+  },
+  {
+    description: "BOILER ROOM PIERCING TEE",
+    gallery: [
+      "BOILER_ROOM_PIERCING_TEE_BACK_silbzk",
+      "BOILER_ROOM_PIERCING_TEE_FRONT_bcld1r",
+    ],
+      link: "piercing-tee",
+  },
+  {
+    description: "A LOVING HEART T-SHIRT",
+    gallery: [
+      "A_LOVING_HEART_T-SHIRTwhite_kzx2z7",
+    ],
+      link: "loving-heart",
+  },
+  {
+    description: "JUGGALOS AGAINST ILLUMINATI LEADERSHIP",
+    gallery: [
+      "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
+    ],
+      link: "jail",
+  },
+  {
+    description: "JUGGALO PAINTING",
+    gallery: [
+      "JUGGALO_PAINTING_tfgrfa",
+    ],
+      link: "juggalo-painting",
+  },
 ];
 
 export interface Project {
-  name: string;
   description: string;
   gallery: string[],
   video?: string;
@@ -135,26 +217,8 @@ export interface Project {
 }
 
 export const profile = {
-  image: "/Something.jpg",
-  background: [
-    "Kieran Slater is a London-based furniture maker dedicated to creating timeless, handcrafted pieces that blend contemporary design with traditional craftsmanship. Each piece is built with care, usingsustainably sourced materials and time-honoured joinery techniques to ensure beauty, integrity,\u00A0and\u00A0longevity.",
-    "Driven by a deep respect for natural materials and fine craftsmanship, Kieran’s work celebrates the individuality of wood — its textures, imperfections, and character. From bespoke commissions to limited collections, every design begins with an idea, a sketch, and a commitment to quality that\u00A0transcends\u00A0trends.",
-    "Kieran trained in furniture design and cabinetmaking before establishing his own workshop in London. His approach balances modern aesthetics with classic techniques, producing work that feels both grounded and refined — made to be lived with, not just\u00A0looked\u00A0at.",
-    "Whether creating a statement piece for a private home or fitting out a public space, Kieran works closely with clients to ensure each commission reflects their story, their space, and\u00A0their\u00A0values.",
-    "Furniture should be honest — made to last, made to be used, and made to\u00A0be\u00A0loved.",
-    "Workshop based in London, UK.\nServing clients across the UK and internationally.",
-  ],
-  contact: [
-    "something@something.com",
-    "https://www.instagram.com/something/",
-    "https://www.linkedin.com/in/something/",
-  ],
   workedWith: [
     "DAZED", "ALL PURPOSE", "WITH PROJECTS", "NOWADAYS", "SUPERIMPOSE", "BOILER ROOM", "MTV", "NIKE", "ADIDAS", "AWAKE", "UMBRO", "LEVIS", "PUMA", "FIORUCCI", "URBAN OUTFITTERS"
   ],
-  won: [
-    {something: "Something - Something, Something - Something, Something - Something"},
-    {something: "Something - Something, Something - Something, Something - Something"},
-  ]
 }
 
