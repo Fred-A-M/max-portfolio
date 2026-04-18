@@ -174,7 +174,7 @@ export const projects = [
   {
     description: "BOILER ROOM LONDON TEE",
     gallery: [
-      "BOILER_ROOM_LONDON_TEEwhite_zbcpte",
+      "BOILER_ROOM_LONDON_TEEwhite_e162cq",
     ],
       link: "london-tee",
   },
