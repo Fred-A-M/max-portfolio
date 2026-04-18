@@ -122,17 +122,17 @@ export const projects = [
   {
     description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE",
     gallery: [
-      "AW24LS05MUL-1_rudgmb",
-      "AW24LS05MUL-2_mi2ydt",
+      "Artboard_1_u2jodk",
+      "Artboard_2_bmve10",
     ],
-    link: "machine-horses-01",
+    link: "motocross-machine-horses",
   },
   {
     description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE",
     gallery: [
       "Artboard_3_jsk1pw",
     ],
-    link: "dragonfly-motocross-01",
+    link: "motocross-dragonfly",
   },
   {
     description: "REJECTED CONCEPT",
