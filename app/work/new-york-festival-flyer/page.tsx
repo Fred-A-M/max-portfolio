@@ -15,6 +15,7 @@ export default function NewYorkFestivalFlyer () {
     >
       <HoverImage 
         gallery={project.gallery}
+        slim
       />
     </ProjectContentWrap>
   )

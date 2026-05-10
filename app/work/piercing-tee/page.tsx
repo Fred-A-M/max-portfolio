@@ -15,17 +15,9 @@ export default function PiercingTee () {
     <ProjectContentWrap
       project={project}
     >
-      {isMobile &&
-        <HoverImage 
-          gallery={project.gallery}
-        />
-      }
-      {!isMobile &&
-        <DoubleImage 
-          imageOne={project.gallery[0]}
-          imageTwo={project.gallery[1]}
-        />
-      }
+      <HoverImage 
+        gallery={project.gallery}
+      />
     </ProjectContentWrap>
   )
 }

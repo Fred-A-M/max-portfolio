@@ -14,6 +14,7 @@ export default function MediaPlayer () {
      <Carousel
       gallery={project.gallery}
       video
+      slim
      /> 
     </ProjectContentWrap>
   )

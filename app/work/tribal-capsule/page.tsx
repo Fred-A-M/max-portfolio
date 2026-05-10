@@ -14,6 +14,7 @@ export default function TribalCapsule () {
     >
       <Carousel
         gallery={project.gallery}
+        slim
       />
     </ProjectContentWrap>
   )

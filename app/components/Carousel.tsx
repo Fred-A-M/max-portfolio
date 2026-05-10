@@ -6,9 +6,11 @@ import GalleryIndicators from './GalleryIndicators';
 export default function Carousel({
   gallery, 
   video,
+  slim,
 }: { 
   gallery: string[], 
   video?: boolean,
+  slim?: boolean,
 }) {
   const [firstImageLoaded, setFirstImageLoaded] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -52,7 +54,7 @@ export default function Carousel({
         className={`
           relative 
           w-full 
-          max-w-[800px] 
+          ${slim ? "max-w-[550px]" : "max-w-[650px]"}
           mx-auto 
           h-full 
           group 
