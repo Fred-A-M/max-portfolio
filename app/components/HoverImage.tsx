@@ -28,8 +28,8 @@ export default function HoverImage({
         onClick={() => {
           if (!canHover) {
             setTapped(prev => !prev)
-            setCurrentIndex(prev => prev + 1 % 2)
           } 
+          setCurrentIndex(prev => prev + 1 % 2)
         }}
         onMouseEnter={() => canHover && setCurrentIndex(prev => (prev + 1) % 2)}
         onMouseLeave={() => canHover && setCurrentIndex(prev => (prev + 1) % 2)}
