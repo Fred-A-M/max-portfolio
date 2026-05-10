@@ -175,30 +175,6 @@ export const projects = [
     ],
     link: "media-player",
   },
-  // {
-  //   description: "MEDIA PLAYER ANNOUNCE",
-  //   gallery: [],
-  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566719/Media-Player-Announce_ero8ym.mp4",
-  //   link: "media-player-announce",
-  // },
-  // {
-  //   description: "MEDIA PLAYER ARTIST CARD",
-  //   gallery: [],
-  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565586/Media-Player-Artist-Card_ufl5kf.mp4",
-  //   link: "media-player-artist-card",
-  // },
-  // {
-  //   description: "MEDIA PLAYER LINE UP",
-  //   gallery: [],
-  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565576/Media-Player-Line-Up-2_qkbvu2.mp4",
-  //   link: "media-player-line-up",
-  // },
-  // {
-  //   description: "MEDIA PLAYER SCROLLING LINE UP",
-  //   gallery: [],
-  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
-  //   link: "media-player-scrolling-line-up",
-  // },
   {
     description: "BOILER ROOM PARIS SHOWROOM INVITE",
     gallery: [
