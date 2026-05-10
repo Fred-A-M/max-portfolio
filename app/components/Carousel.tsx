@@ -67,49 +67,61 @@ export default function Carousel({
         }}
       >
       
-        {!video && 
+      {!video &&
+        gallery.map((asset, index) => (
           <CldImage
-            src={gallery[currentIndex]}
-            alt={`Image ${currentIndex}`}
+            key={asset}
+            src={asset}
+            alt={`Image ${index}`}
             fill
-            className="
-              object-contain 
+            preload={index === 0}
+            onLoad={() => {
+              if (index === 0) setFirstImageLoaded(true)
+            }}
+            className={`
+              absolute
+              inset-0
+              object-contain
               custom-cursor-hover
               sm:pt-[2px]
               pt-0
-              transition-opacity 
+              transition-opacity
               duration-500
-            "
-            preload={currentIndex === 0}
-            onLoad={() => {
-              if (currentIndex === 0) setFirstImageLoaded(true);
-            }}
+              ${index === currentIndex
+                ? "opacity-100"
+                : "opacity-0 pointer-events-none"}
+            `}
           />
-        }
+        ))}
 
-        {video &&
+      {video &&
+        gallery.map((asset, index) => (
           <video
-            src={gallery[currentIndex]}
+            key={asset}
+            src={asset}
             autoPlay
             loop
             muted
             playsInline
             onCanPlay={() => {
-              if (currentIndex === 0) setFirstImageLoaded(true);
+              if (index === 0) setFirstImageLoaded(true)
             }}
             className={`
-            absolute
-            inset-0
-            w-full
-            h-full
-            object-contain
-            sm:pt-[2px]
-            transition-opacity
-            duration-500
-            custom-cursor-hover
+              absolute
+              inset-0
+              w-full
+              h-full
+              object-contain
+              sm:pt-[2px]
+              transition-opacity
+              duration-500
+              custom-cursor-hover
+              ${index === currentIndex
+                ? "opacity-100"
+                : "opacity-0 pointer-events-none"}
             `}
           />
-        }
+        ))}
       </div>
 
       <GalleryIndicators
