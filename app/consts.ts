@@ -1,32 +1,18 @@
 export const projects = [
   {
-    description: "FW26 GRAPHIC TEE - BOILER ROOM",
+    description: "A LOVING HEART T-SHIRT",
     gallery: [
-      "BR-DIRTY-FLYER-MOCK-03_jpuvdk",
-      "DIRTY_FLYER_2_ockmiy"
+      "A_LOVING_HEART_T-SHIRTwhite_kzx2z7",
     ],
-    link: "fw26",
+      link: "loving-heart",
   },
   {
-    description: "BOILER ROOM STUDS AND CHAINS AOP 01",
+    description: "JUGGALO",
     gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
+      "JUGGALO_PAINTING_tfgrfa",
+      "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
     ],
-    link: "studs-and-chains-01",
-  },
-  {
-    description: "BOILER ROOM STUDS AND CHAINS AOP 02",
-    gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
-    ],
-    link: "studs-and-chains-02",
-  },
-  {
-    description: "BOILER ROOM STUDS AND CHAINS AOP 03",
-    gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
-    ],
-    link: "studs-and-chains-03",
+      link: "juggalo",
   },
   {
     description: "BOILER ROOM X ADIDAS VAULT TEE",
@@ -37,10 +23,120 @@ export const projects = [
     link: "vault",
   },
   {
+    description: "BOILER ROOM HARD STYLE TEE",
+    gallery: [
+      "Artboard_3_fvwc94",
+      "Artboard_2_ugweaa",
+    ],
+    link: "hard-style-tee",
+  },
+  {
+    description: "BOILER ROOM HARD DANCE TEE 01",
+    gallery: [
+      "BOILER_ROOM_HARD_DANCE_TEE_01_feqqo2",
+    ],
+    link: "hard-dance-01",
+  },
+  {
+    description: "BOILER ROOM HARD DANCE TEE 02",
+    gallery: [
+      "BOILER_ROOM_HARD_DANCE_TEE_02_FRONT_gpgyhw",
+      "BOILER_ROOM_HARD_DANCE_TEE_02_BACK_p04ppr"
+    ],
+    link: "hard-dance-02",
+  },
+  {
+    description: "BOILER ROOM LONDON TEE",
+    gallery: [
+      "BOILER_ROOM_LONDON_TEEwhite_e162cq",
+    ],
+      link: "london-tee",
+  },
+  {
+    description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE",
+    gallery: [
+      "Artboard_1_u2jodk",
+      "Artboard_2_bmve10",
+    ],
+    link: "motocross-machine-horses",
+  },
+  {
+    description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE",
+    gallery: [
+      "Artboard_3_jsk1pw",
+    ],
+    link: "motocross-dragonfly",
+  },
+  {
+    description: "REJECTED CONCEPT",
+    gallery: [
+      "00-yorkies-moto_ae6qua",
+    ],
+      link: "rejected-concept",
+  },
+  {
+    description: "BOILER ROOM STUDS AND CHAINS AOP",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
+      "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
+      "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
+    ],
+    link: "studs-and-chains",
+  },
+  // {
+  //   description: "BOILER ROOM STUDS AND CHAINS AOP 01",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
+  //   ],
+  //   link: "studs-and-chains-01",
+  // },
+  // {
+  //   description: "BOILER ROOM STUDS AND CHAINS AOP 02",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
+  //   ],
+  //   link: "studs-and-chains-02",
+  // },
+  // {
+  //   description: "BOILER ROOM STUDS AND CHAINS AOP 03",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
+  //   ],
+  //   link: "studs-and-chains-03",
+  // },
+  {
+    description: "FW26 GRAPHIC TEE - BOILER ROOM",
+    gallery: [
+      "BR-DIRTY-FLYER-MOCK-03_jpuvdk",
+      "DIRTY_FLYER_2_ockmiy"
+    ],
+    link: "fw26",
+  },
+  {
+    description: "BOILER ROOM TRIBAL CAPSULE 01",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
+    ],
+    link: "tribal-capsule-01",
+  },
+  {
+    description: "BOILER ROOM TRIBAL CAPSULE 02",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
+    ],
+    link: "tribal-capsule-02",
+  },
+  {
+    description: "BOILER ROOM TRIBAL CAPSULE 03",
+    gallery: [
+      "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
+    ],
+    link: "tribal-capsule-03",
+  },
+  {
     description: "BOILER ROOM x AWAKE NY EVENT FLYER",
     gallery: [
-      "BR-AWAKE-FLYER-V4_scfb30",
-      "BR-AWAKE-FLYER-V2_a981az"
+      "BOILER_ROOM_X_AWAKE_NY_EVENT_FLYER_02_sjvdxt"
     ],
     link: "awake",
   },
@@ -57,7 +153,7 @@ export const projects = [
       "NEW_YORK_LONG_LINE_UP_02_4X5_mik6sa",
       "NEW_YORK_ARTIST_CARD_4X5_ymxla9",
     ],
-    link: "new-york-festival-02",
+    link: "new-york-festival-flyer",
   },
   {
     description: "MEDIA PLAYER ANNOUNCE",
@@ -84,64 +180,6 @@ export const projects = [
     link: "media-player-scrolling-line-up",
   },
   {
-    description: "BOILER ROOM HARD DANCE TEE 01",
-    gallery: [
-      "BOILER_ROOM_HARD_DANCE_TEE_01_feqqo2",
-    ],
-    link: "hard-dance-01",
-  },
-  {
-    description: "BOILER ROOM HARD DANCE TEE 02",
-    gallery: [
-      "BOILER_ROOM_HARD_DANCE_TEE_02_FRONT_gpgyhw",
-      "BOILER_ROOM_HARD_DANCE_TEE_02_BACK_p04ppr"
-    ],
-    link: "hard-dance-02",
-  },
-  {
-    description: "BOILER ROOM TRIBAL CAPSULE 01",
-    gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
-    ],
-    link: "tribal-capsule-01",
-  },
-  {
-    description: "BOILER ROOM TRIBAL CAPSULE 02",
-    gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
-    ],
-    link: "tribal-capsule-02",
-  },
-  {
-    description: "BOILER ROOM TRIBAL CAPSULE 03",
-    gallery: [
-      "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
-    ],
-    link: "tribal-capsule-03",
-  },
-  {
-    description: "BOILER ROOM MACHINE HORSES MOTOCROSS TEE",
-    gallery: [
-      "Artboard_1_u2jodk",
-      "Artboard_2_bmve10",
-    ],
-    link: "motocross-machine-horses",
-  },
-  {
-    description: "BOILER ROOM DRAGONFLY MOTOCROSS TEE",
-    gallery: [
-      "Artboard_3_jsk1pw",
-    ],
-    link: "motocross-dragonfly",
-  },
-  {
-    description: "REJECTED CONCEPT",
-    gallery: [
-      "00-yorkies-moto_ae6qua",
-    ],
-      link: "rejected-concept",
-  },
-  {
     description: "BOILER ROOM PARIS SHOWROOM INVITE",
     gallery: [
       "PARIS-SHOWROOM-INVITE-03_psmvoc",
@@ -164,48 +202,12 @@ export const projects = [
     link: "world-tour-line-up",
   },
   {
-    description: "BOILER ROOM HARD STYLE TEE",
-    gallery: [
-      "Artboard_2_ugweaa",
-      "Artboard_3_fvwc94",
-    ],
-    link: "hard-style-tee",
-  },
-  {
-    description: "BOILER ROOM LONDON TEE",
-    gallery: [
-      "BOILER_ROOM_LONDON_TEEwhite_e162cq",
-    ],
-      link: "london-tee",
-  },
-  {
     description: "BOILER ROOM PIERCING TEE",
     gallery: [
       "BOILER_ROOM_PIERCING_TEE_BACK_silbzk",
       "BOILER_ROOM_PIERCING_TEE_FRONT_bcld1r",
     ],
       link: "piercing-tee",
-  },
-  {
-    description: "A LOVING HEART T-SHIRT",
-    gallery: [
-      "A_LOVING_HEART_T-SHIRTwhite_kzx2z7",
-    ],
-      link: "loving-heart",
-  },
-  {
-    description: "JUGGALOS AGAINST ILLUMINATI LEADERSHIP",
-    gallery: [
-      "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
-    ],
-      link: "jail",
-  },
-  {
-    description: "JUGGALO PAINTING",
-    gallery: [
-      "JUGGALO_PAINTING_tfgrfa",
-    ],
-      link: "juggalo-painting",
   },
 ];
 

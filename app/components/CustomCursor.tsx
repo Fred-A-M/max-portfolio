@@ -30,7 +30,7 @@ const CustomCursor = () => {
     const handleMouseOver = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
       // Check if the element (or its parent) is clickable
-      if (target.closest("button, a, input[type='submit'], .cursor-pointer")) {
+      if (target.closest("button, a, input[type='submit'], .cursor-pointer, .custom-cursor-hover")) {
         setIsHovering(true);
       } else {
         setIsHovering(false);

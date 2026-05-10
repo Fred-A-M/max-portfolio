@@ -43,6 +43,8 @@ export default function HoverImage({
           object-contain
           transition-opacity
           duration-500
+          sm:pt-[2px]
+          pt-0
           ${(canHover ? "group-hover:opacity-0" : "")}
           ${tapped ? "opacity-0" : "opacity-100"}
         `}
@@ -57,6 +59,8 @@ export default function HoverImage({
             object-contain
             transition-opacity
             duration-500
+            sm:pt-[2px]
+            pt-0
             ${(canHover ? "group-hover:opacity-100" : "")}
             ${tapped ? "opacity-100" : "opacity-0"}
           `}

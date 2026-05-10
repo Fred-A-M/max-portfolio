@@ -1,20 +1,19 @@
 "use client"
 import { projects } from '@/app/consts'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
-import StaticImage from '@/app/components/StaticImage'
+import Carousel from '@/app/components/Carousel'
 
-export default function JuggaloPainting () {
+export default function StudsAndChains () {
 
-  const project = projects.find(project => project.link === "juggalo-painting")
+  const project = projects.find(project => project.link === "studs-and-chains")
   if (!project) return null;
 
   return (
     <ProjectContentWrap
       project={project}
     >
-      <StaticImage
-        image={project.gallery[0]}
-        padding
+      <Carousel
+        gallery={project.gallery}
       />
     </ProjectContentWrap>
   )
