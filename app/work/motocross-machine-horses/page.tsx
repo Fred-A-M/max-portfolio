@@ -13,8 +13,7 @@ export default function MachineHorses () {
       project={project}
     >
       <HoverImage 
-        primary={project.gallery[0]}
-        secondary={project.gallery[1]}
+        gallery={project.gallery}
       />
     </ProjectContentWrap>
   )

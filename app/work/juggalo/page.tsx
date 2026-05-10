@@ -3,7 +3,7 @@ import { projects } from '@/app/consts'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
-import DoubleImage from '@/app/components/DoubleImage';
+import StaticImage from '@/app/components/StaticImage';
 
 export default function Juggalo () {
   const isMobile = useIsMobile();
@@ -17,14 +17,12 @@ export default function Juggalo () {
     >
       {isMobile &&
         <HoverImage 
-          primary={project.gallery[0]}
-          secondary={project.gallery[1]}
+          gallery={project.gallery}
         />
       }
       {!isMobile &&
-        <DoubleImage 
-          imageOne={project.gallery[0]}
-          imageTwo={project.gallery[1]}
+        <StaticImage 
+          image={project.gallery[2]}
         />
       }
     </ProjectContentWrap>

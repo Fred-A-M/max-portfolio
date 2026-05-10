@@ -17,8 +17,7 @@ export default function Fw26 () {
     >
       {isMobile &&
         <HoverImage 
-          primary={project.gallery[0]}
-          secondary={project.gallery[1]}
+          gallery={project.gallery}
         />
       }
       {!isMobile &&

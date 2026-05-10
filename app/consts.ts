@@ -11,6 +11,7 @@ export const projects = [
     gallery: [
       "JUGGALO_PAINTING_tfgrfa",
       "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
+      "combo_p0qawk",
     ],
       link: "juggalo",
   },
@@ -113,26 +114,35 @@ export const projects = [
     link: "fw26",
   },
   {
-    description: "BOILER ROOM TRIBAL CAPSULE 01",
+    description: "BOILER ROOM TRIBAL CAPSULE",
     gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
-    ],
-    link: "tribal-capsule-01",
-  },
-  {
-    description: "BOILER ROOM TRIBAL CAPSULE 02",
-    gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
-    ],
-    link: "tribal-capsule-02",
-  },
-  {
-    description: "BOILER ROOM TRIBAL CAPSULE 03",
-    gallery: [
       "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
     ],
-    link: "tribal-capsule-03",
+    link: "tribal-capsule",
   },
+  // {
+  //   description: "BOILER ROOM TRIBAL CAPSULE 01",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
+  //   ],
+  //   link: "tribal-capsule-01",
+  // },
+  // {
+  //   description: "BOILER ROOM TRIBAL CAPSULE 02",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
+  //   ],
+  //   link: "tribal-capsule-02",
+  // },
+  // {
+  //   description: "BOILER ROOM TRIBAL CAPSULE 03",
+  //   gallery: [
+  //     "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
+  //   ],
+  //   link: "tribal-capsule-03",
+  // },
   {
     description: "BOILER ROOM x AWAKE NY EVENT FLYER",
     gallery: [
@@ -156,29 +166,39 @@ export const projects = [
     link: "new-york-festival-flyer",
   },
   {
-    description: "MEDIA PLAYER ANNOUNCE",
-    gallery: [],
-    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566719/Media-Player-Announce_ero8ym.mp4",
-    link: "media-player-announce",
+    description: "BOILER ROOM NEW YORK FESTIVAL MEDIA PLAYER",
+    gallery: [
+      "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
+      "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566719/Media-Player-Announce_ero8ym.mp4",
+      "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565586/Media-Player-Artist-Card_ufl5kf.mp4",
+      "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565576/Media-Player-Line-Up-2_qkbvu2.mp4",
+    ],
+    link: "media-player",
   },
-  {
-    description: "MEDIA PLAYER ARTIST CARD",
-    gallery: [],
-    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565586/Media-Player-Artist-Card_ufl5kf.mp4",
-    link: "media-player-artist-card",
-  },
-  {
-    description: "MEDIA PLAYER LINE UP",
-    gallery: [],
-    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565576/Media-Player-Line-Up-2_qkbvu2.mp4",
-    link: "media-player-line-up",
-  },
-  {
-    description: "MEDIA PLAYER SCROLLING LINE UP",
-    gallery: [],
-    video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
-    link: "media-player-scrolling-line-up",
-  },
+  // {
+  //   description: "MEDIA PLAYER ANNOUNCE",
+  //   gallery: [],
+  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566719/Media-Player-Announce_ero8ym.mp4",
+  //   link: "media-player-announce",
+  // },
+  // {
+  //   description: "MEDIA PLAYER ARTIST CARD",
+  //   gallery: [],
+  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565586/Media-Player-Artist-Card_ufl5kf.mp4",
+  //   link: "media-player-artist-card",
+  // },
+  // {
+  //   description: "MEDIA PLAYER LINE UP",
+  //   gallery: [],
+  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771565576/Media-Player-Line-Up-2_qkbvu2.mp4",
+  //   link: "media-player-line-up",
+  // },
+  // {
+  //   description: "MEDIA PLAYER SCROLLING LINE UP",
+  //   gallery: [],
+  //   video: "https://res.cloudinary.com/duijfl1pq/video/upload/v1771566761/Media-Player-Scrolling-Line-Up_ghgnj1.mp4",
+  //   link: "media-player-scrolling-line-up",
+  // },
   {
     description: "BOILER ROOM PARIS SHOWROOM INVITE",
     gallery: [

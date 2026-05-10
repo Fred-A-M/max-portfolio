@@ -1,25 +1,39 @@
 "use client"
 import { CldImage } from 'next-cloudinary';
 import { useState, useEffect } from 'react';
+import GalleryIndicators from './GalleryIndicators';
 
 export default function Carousel({
   gallery, 
+  video,
 }: { 
   gallery: string[], 
+  video?: boolean,
 }) {
   const [firstImageLoaded, setFirstImageLoaded] = useState(false);
   const [currentIndex, setCurrentIndex] = useState(0);
   const ready = firstImageLoaded;
-  // const pointers = project && project?.gallery.length > 1;
   const total = gallery.length || 0;
 
   useEffect(() => {
-    // Preload all gallery images
-    gallery.forEach((image) => {
-      const img = new window.Image()
-      img.src = `https://res.cloudinary.com/duijfl1pq/image/upload/${image}`
+    gallery.forEach((asset) => {
+      if (video) {
+        const videoElement = document.createElement("video")
+  
+        videoElement.src = asset
+        videoElement.preload = "auto"
+  
+        // optional but helps some browsers start fetching
+        videoElement.muted = true
+        videoElement.playsInline = true
+  
+        videoElement.load()
+      } else {
+        const img = new window.Image()
+        img.src = `https://res.cloudinary.com/duijfl1pq/image/upload/${asset}`
+      }
     })
-  }, [gallery])
+  }, [gallery, video])
 
   if (total === 0) return null;
   
@@ -53,37 +67,55 @@ export default function Carousel({
         }}
       >
       
-        <CldImage
-          src={gallery[currentIndex]}
-          alt={`Image ${currentIndex}`}
-          fill
-          className="
-            object-contain 
-            custom-cursor-hover
-            sm:pt-[2px]
-            pt-0
-            transition-opacity 
-            duration-500
-          "
-          preload={currentIndex === 0}
-          onLoad={() => {
-            if (currentIndex === 0) setFirstImageLoaded(true);
-          }}
-        />
-      </div>
-      
-      <div className="flex justify-center items-center gap-2 mt-2">
-        {gallery.map((_, index) => (
-          <p
-            key={index}
-            className={`h-1 w-1 rounded-full transition-all duration-300 ${
-              index === currentIndex
-                ? "bg-black"
-                : "bg-gray-300 opacity-60"
-            }`}
+        {!video && 
+          <CldImage
+            src={gallery[currentIndex]}
+            alt={`Image ${currentIndex}`}
+            fill
+            className="
+              object-contain 
+              custom-cursor-hover
+              sm:pt-[2px]
+              pt-0
+              transition-opacity 
+              duration-500
+            "
+            preload={currentIndex === 0}
+            onLoad={() => {
+              if (currentIndex === 0) setFirstImageLoaded(true);
+            }}
           />
-        ))}
+        }
+
+        {video &&
+          <video
+            src={gallery[currentIndex]}
+            autoPlay
+            loop
+            muted
+            playsInline
+            onCanPlay={() => {
+              if (currentIndex === 0) setFirstImageLoaded(true);
+            }}
+            className={`
+            absolute
+            inset-0
+            w-full
+            h-full
+            object-contain
+            sm:pt-[2px]
+            transition-opacity
+            duration-500
+            custom-cursor-hover
+            `}
+          />
+        }
       </div>
+
+      <GalleryIndicators
+        gallery={gallery}
+        currentIndex={currentIndex}
+      />
     </div>
   )
 }

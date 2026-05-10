@@ -2,7 +2,6 @@
 import { projects } from '@/app/consts'
 import { useIsMobile } from '@/app/hooks/useIsMobile';
 import HoverImage from '@/app/components/HoverImage';
-import StaticImage from '@/app/components/StaticImage';
 import DoubleImage from '@/app/components/DoubleImage';
 import ProjectContentWrap from '@/app/components/ProjectContentWrap';
 
@@ -18,8 +17,7 @@ export default function WorldTourLineUp () {
     >
       {isMobile &&
         <HoverImage 
-          primary={project.gallery[0]}
-          secondary={project.gallery[1]}
+          gallery={project.gallery}
         />
       }
       {!isMobile && (

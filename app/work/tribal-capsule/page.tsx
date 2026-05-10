@@ -1,18 +1,18 @@
 "use client"
 import { projects } from '@/app/consts'
-import HoverImage from '@/app/components/HoverImage'
 import ProjectContentWrap from '@/app/components/ProjectContentWrap'
+import Carousel from '@/app/components/Carousel'
 
-export default function Vault () {
+export default function TribalCapsule () {
 
-  const project = projects.find(project => project.link === "vault")
-  if (!project || !project.gallery || project.gallery.length === 0) return null;
+  const project = projects.find(project => project.link === "tribal-capsule")
+  if (!project) return null;
 
   return (
     <ProjectContentWrap
       project={project}
     >
-      <HoverImage 
+      <Carousel
         gallery={project.gallery}
       />
     </ProjectContentWrap>
