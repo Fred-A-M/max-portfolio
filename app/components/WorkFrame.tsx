@@ -87,12 +87,9 @@ export default function WorkFrame () {
       <div className='absolute inset-[12px]'>
         {/* top bar */}
         <div className="absolute top-0 left-0 right-0 flex flex-col justify-center gap-[25px] items-center">
-          <div className='w-full flex justify-between'>
+          <div className='w-full flex justify-center'>
             <Link href="/" className="hover:underline hover:cursor-pointer">
-              MAX RAWLINS
-            </Link>
-            <Link href="/" className="hover:underline hover:cursor-pointer">
-              ABOUT
+              WWW.MAXRAWLINS.COM
             </Link>
           </div>
           <Link href={`/work/${prev.link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl'>

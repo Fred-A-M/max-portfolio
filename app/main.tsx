@@ -78,7 +78,7 @@ export default function Main () {
 
   if (isMobile) {
     return (
-      <div className='flex flex-col flex-1'>
+      <div className='flex flex-col flex-1 px-[12px] py-[12px]'>
         <div className='flex'>
           <div className='flex flex-col w-3/4 sm:flex-1'>
             <div className='flex flex-col gap-[25px] pb-[25px]'>
