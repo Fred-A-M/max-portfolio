@@ -33,9 +33,9 @@ export default function Main () {
               py-[12px]
               h-full
               mx-auto
-              w-2/3
-              lg:w-1/2
-              xl:w-1/3
+              w-1/2
+              lg:w-1/3
+              2xl:w-1/4
               flex
               flex-col
               gap-[15px]
@@ -56,11 +56,11 @@ export default function Main () {
                 />
               </div>
               <p>
-                Max Rawlins is a Designer and art director based in london.
+                {`Max Rawlins is a Designer and art director based in\u00A0London.`}
               </p>
               <p>
-                Clients include: Adidas, All Purpose, Awake Ny, Ballantines, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike,
-                Nowadays, Papa Johns, Superimpose, Umbro, Urban Outfitters, With Projects.
+                {`Clients include: Adidas, All Purpose, Awake Ny, Ballantines, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike,
+                Nowadays, Papa Johns, Superimpose, Umbro, Urban Outfitters, With\u00A0Projects.`}
               </p>
               <p>
                 Full portfolio available upon request.
