@@ -14,6 +14,7 @@ export default function HardDance01 () {
     >
       <StaticImage
         image={project.gallery[0]}
+        shirt
       />
     </ProjectContentWrap>
   )

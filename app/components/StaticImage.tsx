@@ -5,9 +5,11 @@ import { useState } from 'react';
 export default function StaticImage({
   image, 
   padding,
+  shirt,
 }: { 
   image: string, 
   padding?: boolean
+  shirt?: boolean
 }) {
 
   const [loaded, setLoaded] = useState(false);
@@ -25,6 +27,8 @@ export default function StaticImage({
         duration-500
         ${padding ? "sm:pt-[2px]" : "pt-0"}
         ${loaded ? "opactity-100" : "opacity-0"}
+        ${shirt ? "max-w-[650px]" : "max-w-full"}
+        mx-auto
       `}
     />
   )

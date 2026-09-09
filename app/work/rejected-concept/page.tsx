@@ -14,6 +14,7 @@ export default function RejectedConcept () {
     >
       <StaticImage
         image={project.gallery[0]}
+        shirt
       />
     </ProjectContentWrap>
   )

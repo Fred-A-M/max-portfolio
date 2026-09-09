@@ -7,10 +7,19 @@ export const projects = [
       link: "loving-heart",
   },
   {
+    description: "CINEMA CLUB",
+     gallery: [
+      "Cinema1_aihxeu",
+      "Cinema2_hqj407",
+      "CinemaClub_pb5w5j",
+    ],
+      link: "cinema-club",
+  },
+  {
     description: "JUGGALO",
     gallery: [
-      "JUGGALO_PAINTING_tfgrfa",
       "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
+      "JUGGALO_PAINTING_tfgrfa",
       "combo_p0qawk",
     ],
       link: "juggalo",
@@ -71,7 +80,7 @@ export const projects = [
   {
     description: "REJECTED CONCEPT",
     gallery: [
-      "00-yorkies-moto_ae6qua",
+      "yorkies-cropped_lww33x",
     ],
       link: "rejected-concept",
   },
@@ -84,27 +93,6 @@ export const projects = [
     ],
     link: "studs-and-chains",
   },
-  // {
-  //   description: "BOILER ROOM STUDS AND CHAINS AOP 01",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_07_AW24SS02BLK_014_i7ejdx",
-  //   ],
-  //   link: "studs-and-chains-01",
-  // },
-  // {
-  //   description: "BOILER ROOM STUDS AND CHAINS AOP 02",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_21_AW24LS02BLK_010_ygzrug",
-  //   ],
-  //   link: "studs-and-chains-02",
-  // },
-  // {
-  //   description: "BOILER ROOM STUDS AND CHAINS AOP 03",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_40_AW24DR01BLK_015_vztxms",
-  //   ],
-  //   link: "studs-and-chains-03",
-  // },
   {
     description: "FW26 GRAPHIC TEE - BOILER ROOM",
     gallery: [
@@ -122,27 +110,6 @@ export const projects = [
     ],
     link: "tribal-capsule",
   },
-  // {
-  //   description: "BOILER ROOM TRIBAL CAPSULE 01",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_20_AW24SS15ORC_006_kxcscz",
-  //   ],
-  //   link: "tribal-capsule-01",
-  // },
-  // {
-  //   description: "BOILER ROOM TRIBAL CAPSULE 02",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_19_AW24LS07BLK_008_usjfjs",
-  //   ],
-  //   link: "tribal-capsule-02",
-  // },
-  // {
-  //   description: "BOILER ROOM TRIBAL CAPSULE 03",
-  //   gallery: [
-  //     "240111_VK_BR_AW24_LOOKBOOK_17_KIT_BAG_009_nfucnf",
-  //   ],
-  //   link: "tribal-capsule-03",
-  // },
   {
     description: "BOILER ROOM x AWAKE NY EVENT FLYER",
     gallery: [

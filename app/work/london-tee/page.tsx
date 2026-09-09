@@ -14,6 +14,7 @@ export default function LondonTee () {
     >
       <StaticImage
         image={project.gallery[0]}
+        shirt
       />
     </ProjectContentWrap>
   )
