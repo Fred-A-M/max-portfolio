@@ -27,7 +27,9 @@ export default function StaticImage({
         duration-500
         ${padding ? "sm:pt-[2px]" : "pt-0"}
         ${loaded ? "opactity-100" : "opacity-0"}
-        ${shirt ? "max-w-[650px]" : "max-w-full"}
+        ${shirt ? "max-w-[650px]" : ""}
+        max-h-[700px]
+        my-auto
         mx-auto
       `}
     />

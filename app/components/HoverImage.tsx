@@ -30,6 +30,8 @@ export default function HoverImage({
           relative 
           w-full 
           ${slim ? "max-w-[550px]" : "max-w-[650px]"}
+          ${slim ? "max-h-[700px]" : "max-h-[650px]"}
+          my-auto
           mx-auto 
           h-full 
           group 
