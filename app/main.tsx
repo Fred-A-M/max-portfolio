@@ -56,7 +56,7 @@ export default function Main () {
                 />
               </div>
               <p>
-                Max Rawlins is a Designer ad art director based in london.
+                Max Rawlins is a Designer and art director based in london.
               </p>
               <p>
                 Clients include: Adidas, All Purpose, Awake Ny, Ballantines, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike,
