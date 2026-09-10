@@ -185,6 +185,6 @@ export const profile = {
   workedWith: [
     "DAZED", "ALL PURPOSE", "WITH PROJECTS", "NOWADAYS", "SUPERIMPOSE", "BOILER ROOM", "MTV", "NIKE", "ADIDAS", "AWAKE", "UMBRO", "LEVIS", "PUMA", "FIORUCCI", "URBAN OUTFITTERS"
   ],
-  image: "JUGGALO_PAINTING_tfgrfa",
+  image: "Juggalo-Drift_fja803",
 }
 

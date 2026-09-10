@@ -96,18 +96,19 @@ export default function Main () {
             className="
               px-[12px]
               py-[12px]
-              h-full
+              h-2/3
+              w-2/3
+              my-auto
               mx-auto
-              w-1/2
               flex
               flex-col
               gap-[15px]
               justify-center
               text-left
-              z-0
+              z-5
               "
             >
-              <div className="min-h-0 min-w-0 flex items-center justify-center">
+              <div className="min-h-0 min-w-0 flex items-center justify-center mb-[10px]">
                 <CldImage
                   src={profile.image}
                   alt="Max Rawlins Logo"
@@ -115,7 +116,7 @@ export default function Main () {
                   height={350}
                   preload
                   onLoad={() => setCounter(prev => prev + 1)}
-                  className="max-w-full max-h-full w-auto h-auto object-contain mb-[20px]"
+                  className="max-w-full max-h-full w-auto h-auto object-contain "
                 />
               </div>
               <p>

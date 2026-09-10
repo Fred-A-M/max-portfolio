@@ -35,7 +35,7 @@ export default function WorkFrameHomePage () {
   )
 
   if (isMobile) return (
-    <nav className="absolute inset-0 z-10">
+    <nav className="absolute inset-0">
 
       <div className='absolute inset-[12px]'>
         {/* top bar */}
@@ -45,7 +45,7 @@ export default function WorkFrameHomePage () {
               
             </Link>
           </div>
-          <Link href={`/work/${projects[projects.length - 1].link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl'>
+          <Link href={`/work/${projects[projects.length - 1].link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl z-10'>
             &uarr;
           </Link>
         </div>
@@ -54,7 +54,7 @@ export default function WorkFrameHomePage () {
       
 
        <div className='absolute bottom-0 left-0 right-0 flex flex-col items-center justify-center gap-[25px]'>
-          <Link href={`/work/${projects[0].link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl'>
+          <Link href={`/work/${projects[0].link}`} prefetch className='hover:cursor-pointer text-3xl hover:text-4xl z-10'>
             &darr;
           </Link>
           <div>
