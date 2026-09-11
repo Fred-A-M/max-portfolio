@@ -96,7 +96,7 @@ export default function Main () {
             className="
               px-[12px]
               py-[12px]
-              h-4/5
+              h-2/3
               w-2/3
               my-auto
               mx-auto
