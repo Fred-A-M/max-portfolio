@@ -19,8 +19,8 @@ export const projects = [
     description: "JUGGALO",
     gallery: [
       "JUGGALOS_AGAINST_ILLUMUNATI_LEADERSHIP_ivhyeo",
-      "JUGGALO_PAINTING_tfgrfa",
-      "combo_p0qawk",
+      "Juggalo-Drift_fja803",
+      "combo4_bzqwif",
     ],
       link: "juggalo",
   },
