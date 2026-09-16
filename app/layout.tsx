@@ -7,7 +7,7 @@ import CustomCursor from './components/CustomCursor';
 export const metadata: Metadata = {
   title: "MAX RAWLINS",
   description: "Graphic Designer",
-  metadataBase: new URL('https://www.something.com'),
+  metadataBase: new URL('https://www.maxrawlins.com'),
   openGraph: {
     title: 'MAX RAWLINS',
     description: 'Graphic Designer',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
         url: '/cursor2.png',
         width: 450,
         height: 450,
-        alt: 'Max Rawlins - Very Good Boy',
+        alt: 'Max Rawlins - Graphic Designer',
       },
     ],
     type: 'website',
