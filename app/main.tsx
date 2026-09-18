@@ -122,14 +122,13 @@ export default function Main () {
                 {`Max Rawlins is a Designer and art director based in\u00A0London.`}
               </p>
               <p>
-                {`Clients include: Adidas, All Purpose, Awake Ny, Ballantines, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike,
-                Nowadays, Papa Johns, Superimpose, Umbro, Urban Outfitters, With\u00A0Projects.`}
+                {`Clients include: A Cold Wall, Adidas, All Purpose, Awake NY, BAO, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike, Nowadays, Papa Johns, Umbro, Urban\u00A0Outfitters.`}
               </p>
               <p>
-                Full portfolio available upon request.
+                Full portfolio and CV available upon request.
               </p>
-              <Link href="mailto:helloitsmaxrawlins@gmail.com" className='hover:underline'>
-                XXXXXXXXXX@gmail.com
+              <Link href="mailto:hello@maxrawlins.com" className='hover:underline'>
+                hello@maxrawlins.com
               </Link>
               <Link href="https://www.instagram.com/handburgers/" className='hover:underline' target='_blank'>
                 @Handburgers
