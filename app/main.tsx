@@ -125,7 +125,7 @@ export default function Main () {
                 {`Clients include: A Cold Wall, Adidas, All Purpose, Awake NY, BAO, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike, Nowadays, Papa Johns, Umbro, Urban\u00A0Outfitters.`}
               </p>
               <p>
-                Full portfolio and CV available upon request.
+                Full portfolio an CV available upon request.
               </p>
               <Link href="mailto:hello@maxrawlins.com" className='hover:underline'>
                 hello@maxrawlins.com
