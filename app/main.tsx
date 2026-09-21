@@ -56,19 +56,19 @@ export default function Main () {
                 />
               </div>
               <p>
-                {`Max Rawlins is a Designer and art director based in\u00A0London.`}
+                {profile.description}
               </p>
               <p>
-                {`Clients include: A Cold Wall, Adidas, All Purpose, Awake NY, BAO, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike, Nowadays, Papa Johns, Umbro, Urban\u00A0Outfitters.`}
+                {profile.clients}
               </p>
               <p>
-                Full portfolio and CV available upon request.
+                {profile.portfolio}
               </p>
               <Link href="mailto:hello@maxrawlins.com" className='hover:underline'>
-                hello@maxrawlins.com
+                {profile.email}
               </Link>
               <Link href="https://www.instagram.com/handburgers/" className='hover:underline' target='_blank'>
-                @Handburgers
+                {profile.insta}
               </Link>
             </div>
         </div>
@@ -118,19 +118,19 @@ export default function Main () {
                 />
               </div>
               <p>
-                {`Max Rawlins is a Designer and art director based in\u00A0London.`}
+                {profile.description}
               </p>
               <p>
-                {`Clients include: A Cold Wall, Adidas, All Purpose, Awake NY, BAO, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike, Nowadays, Papa Johns, Umbro, Urban\u00A0Outfitters.`}
+                {profile.clients}
               </p>
               <p>
-                Full portfolio and CV available upon request.
+                {profile.portfolio}
               </p>
               <Link href="mailto:hello@maxrawlins.com" className='hover:underline'>
-                hello@maxrawlins.com
+                {profile.email}
               </Link>
               <Link href="https://www.instagram.com/handburgers/" className='hover:underline' target='_blank'>
-                @Handburgers
+                {profile.insta}
               </Link>
             </div>
         </div>

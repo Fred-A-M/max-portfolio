@@ -182,9 +182,11 @@ export interface Project {
 }
 
 export const profile = {
-  workedWith: [
-    "DAZED", "ALL PURPOSE", "WITH PROJECTS", "NOWADAYS", "SUPERIMPOSE", "BOILER ROOM", "MTV", "NIKE", "ADIDAS", "AWAKE", "UMBRO", "LEVIS", "PUMA", "FIORUCCI", "URBAN OUTFITTERS"
-  ],
   image: "Juggalo-Drift_fja803",
+  description: "Max Rawlins is a Designer and art director based in\u00A0London.",
+  clients: "Clients include: A Cold Wall, Adidas, All Purpose, Awake NY, BAO, Basement, Boiler Room, Budweiser, Dazed, Fiorucci, Levi's, MTV, New Balance, Nike, Nowadays, Papa Johns, Umbro, Urban\u00A0Outfitters.",
+  portfolio: "Full portfolio and CV available upon\u00A0request.",
+  email: "hello@maxrawlins.com",
+  insta: "@Handburgers",
 }
 
